@@ -15,7 +15,7 @@ function preload (){
  spookySound=loadSound("spooky.wav")    
 }
 function setup(){
- createCanvas (600,600); 
+ createCanvas (windowWidth,windowHeight); 
  tower=createSprite(300,300) 
   tower.addImage("tower",towerimage)
 tower.velocityY=2
